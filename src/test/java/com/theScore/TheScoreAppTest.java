@@ -57,6 +57,7 @@ public class TheScoreAppTest {
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
         caps.setCapability(MobileCapabilityType.UDID, udid);
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, automationName);
+        caps.setCapability(MobileCapabilityType.APP,"src/test/resources/theScore.apk");
         caps.setCapability("appPackage", "com.fivemobile.thescore");
         caps.setCapability("appActivity", "com.fivemobile.thescore.ui.MainActivity");
 

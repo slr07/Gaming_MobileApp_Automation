@@ -19,6 +19,12 @@ The test script is parameterized to allow testing on multiple devices with diffe
 
 Note that this script does not cover all possible test scenarios of theScore app, and additional test cases may need to be written to ensure complete test coverage.
 
+#### Current Device Capabilities (Need to update them according your requirements)
+1. platformName = Android
+2. platformVersion = 12
+3. deviceName = Samsung
+4. udid = R58MA0GS51V
+5. automationName = UiAutomator2
 
 ## Note
 This test is not set up for iOS device and can easily implement for iOS with above setup.

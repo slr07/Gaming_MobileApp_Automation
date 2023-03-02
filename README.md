@@ -23,5 +23,3 @@ Note that this script does not cover all possible test scenarios of theScore app
 ## Note
 This test is not set up for iOS device and can easily implement for iOS with above setup.
 
-# qa_mobileApp_automation
-# QA_NativeApp

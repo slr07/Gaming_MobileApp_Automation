@@ -27,5 +27,5 @@ Note that this script does not cover all possible test scenarios of theScore app
 5. automationName = UiAutomator2
 
 ## Note
-This test is not set up for iOS device and can easily implement for iOS with above setup.
+Appium local server launching is configured in the test script, And server will launch upon running the test runner
 

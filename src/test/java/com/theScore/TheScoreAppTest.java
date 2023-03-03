@@ -27,6 +27,9 @@ public class TheScoreAppTest {
     public String udid;
     public String automationName;
 
+    /**
+     * device data is parameterized to allow testing on multiple devices with different properties.
+     */
     @Parameters(name = "{0}App")
     public static Collection<Object[]> deviceData() {
         Object[][] deviceData = new Object[][]{
@@ -61,6 +64,7 @@ public class TheScoreAppTest {
         caps.setCapability("appPackage", "com.fivemobile.thescore");
         caps.setCapability("appActivity", "com.fivemobile.thescore.ui.MainActivity");
 
+        // Appium local server launch is configured in test script upon launching the test runner
         try {
             System.out.println("Appium Server launched!");
             AppiumDriverLocalService.buildDefaultService().start();

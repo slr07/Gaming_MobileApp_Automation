@@ -23,7 +23,7 @@ Note that this script does not cover all possible test scenarios of theScore app
 1. platformName = Android
 2. platformVersion = 12
 3. deviceName = Samsung
-4. udid = R58MA0GS51V
+4. udid = (device udid:- connect your real device to you laptop, open terminal use command 'adb devices' to know udid)
 5. automationName = UiAutomator2
 
 ## Note

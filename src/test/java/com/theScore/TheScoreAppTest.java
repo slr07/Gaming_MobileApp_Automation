@@ -34,7 +34,7 @@ public class TheScoreAppTest {
                     "Android",
                     "12",
                     "Samsung S10",
-                    "R58MA0GS51V",
+                    "R58MA0GS51B",
                     "UiAutomator2"}
         };
         return Arrays.asList(deviceData);

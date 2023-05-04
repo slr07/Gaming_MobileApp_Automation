@@ -1,4 +1,4 @@
-# theScore QA Automation Challenge (Mobile)
+# Gaming app automation (Mobile)
 
 ## **Tech Stack**
 1. Appium 1.22.3
